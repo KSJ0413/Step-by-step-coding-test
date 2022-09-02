@@ -30,7 +30,7 @@ public class BaekJoon5585 {
 //        System.out.println(solve(1000 - pay));
 //    }
 //
-//     최소 거스름돈 개수를 구하는 함수입니다. ** 
+//     최소 거스름돈 개수를 구하는 함수입니다. **
 //    private static int solve(int changeMoney) {
 //        int[] change = {500, 100, 50, 10, 5, 1};
 //        int result = 0;
