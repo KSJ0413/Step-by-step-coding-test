@@ -37,3 +37,40 @@ public class BaekJoon11399 {
 
 
        }
+
+
+
+
+//    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//    StringTokenizer st = null;
+//
+//    // String Line이므로 Integer.parseInt를 이용하여 형변환해야함
+//    int n = Integer.parseInt(br.readLine());
+//
+//    int[] stack = new int[n];
+//
+//// 3 1 4 3 2 공란 포함 String Line일시 StringTokenizer 사용
+//		st = new StringTokenizer(br.readLine());
+//
+//                for (int i=0; i<n; i++) {
+//        // 배열에 토큰을 하나씩 불러서 입력해줌
+//        stack[i] = Integer.parseInt(st.nextToken());
+//        }
+//
+//        Arrays.sort(stack);
+//
+//        int[] hap = new int[n];
+//        hap[0] = stack[0];
+//
+//        for (int i=1; i<n; i++) {
+//        hap[i] += hap[i-1] + stack[i];
+//        }
+//
+//        int res = 0;
+//        for (int i=0; i<n; i++) {
+//        res += hap[i];
+//        }
+//
+//        System.out.println(res);
+
+
