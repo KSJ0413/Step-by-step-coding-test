@@ -20,3 +20,5 @@ Set Transaction
 Begin
 Save Point
 Lock
+
+DML은
