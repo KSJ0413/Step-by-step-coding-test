@@ -1,0 +1,22 @@
+DDL(Data Definition Language)
+Create : 생성(데이터베이스 객체)
+Alter : 변경(객체의 속성)
+Rename : 이름 변경(데이터베이스 객체)
+Drop : 삭제(데이터베이스내 객체)
+Truncate : 삭제(테이블 내 테이블)
+
+DML(Data Manipulation Language)
+Delete
+Update
+Select
+Insert
+
+DCL(Data Control Language)
+Grant
+Revoke
+Commit
+Rollback
+Set Transaction
+Begin
+Save Point
+Lock
