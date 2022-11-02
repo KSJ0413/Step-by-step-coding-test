@@ -91,4 +91,22 @@ COALESCE(expr1, expr2, ...) 처음으로 널이 아닌 것을 리턴
 순수 관계연산자
 Select, projection, join, division
 
+Join 종류
+EQUI JOIN : 서로 정확하게 일치하는 경우 대부분 PK <=> FK 관계를 기반 /무조건X 
+이너조인과 같은 개념 on 이나 using을 필수로 써준다
+NON EQUL JOIN : 컬럼 값들이 서로 정확하게 일치하지 않을 경우 = 아닌 다른 연산자들을 사용한다.
+CROSS JOIN : 두개의 테이블을 아무 조건없이 연결 시킨다.
+
+집합 연산자
+UNION : 결과를 더한다.(중복 제거, 정열 시행)
+UNION ALL : 결과를 더한다(중복 제거 X, 정열 시행 X)
+INTERSECT : 교집합 결과를 정열
+MINUS 차집합
+
+
+
+
+
+  
+
 
