@@ -88,3 +88,7 @@ NVL2(col, expr1, expr2) col이 널이 아니면 expr1, 널이면 expr2를 리턴
 NULLIF(expr1, expr2) expr1과 expr2가 같지 않으면 expr1을, 같으면 NULL 리턴
 COALESCE(expr1, expr2, ...) 처음으로 널이 아닌 것을 리턴
 
+순수 관계연산자
+Select, projection, join, division
+
+
