@@ -66,4 +66,25 @@ DISTINCT : 중복된 데이터가 있을시 1건으로 처리
 COMMIT은 트랜잭션의 종료를 위한 대표적인 명령어로서 데이터에 대한 변경사항을 데이터베이스에 영구적으로 반영한다.
 ROLLBACK은 데이터에 대한 변경사항을 모두 폐기하고 변경 전의 상태로 되돌린다.
 
+내장함수 : 단일행 함수와 다중행 함수로 나뉠수 있으며 다중행 함수는 집계 함수, 그룹 함수, 윈도우 함수로 나뉜다 
+단일행 함수
+1) 추출되는 각 행마다 작업을 수행
+2) 각 행마다 하나의 결과를 반환
+3) Select, Where, Order By, Update의  SET 절에 사용가능
+4) 데이터 타입 변경 가능
+5) 중첩해서 사용 가능
+다중 행 함수
+1) 여러 개의 행이 입력, 하나의 값 반환
+2) 그룹(집계) 함수가 다중 행 함수!
+예) SUM, AVG, MAX, MIN, Count, ...
+
+CHR(10) : 줄 바꿈을 의미
+REPLACE(C!, CHR(10), '')
+'' : Empty string, Zero Length string
+
+NULL 관련 함수
+NVL(col, expr) 만일 col이 널이면 expr을 리턴
+NVL2(col, expr1, expr2) col이 널이 아니면 expr1, 널이면 expr2를 리턴
+NULLIF(expr1, expr2) expr1과 expr2가 같지 않으면 expr1을, 같으면 NULL 리턴
+COALESCE(expr1, expr2, ...) 처음으로 널이 아닌 것을 리턴
 
