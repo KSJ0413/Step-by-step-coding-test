@@ -111,6 +111,14 @@ SOL과 비교
 • DFFERENCE 연산은 EXCEPT(Oracle~ MINUS) 기능으로 //차집합연산
 • PRODUCT 연산은 CROSS JOIN 기능으로 구현되었다.  //교집합연산
 
+계층형 함수
+LEVEL : 검색 항목의 깊의를 의미한다. 즉 계층 구조에서 가장 상위 레벨이 1이 된다.
+CONNECT_BY_ROOT : 계층 구조에서 가장 최상위 값을 표시한다.
+CONNECT_BY_ISLEAF : 계층 구조에서 가장 최하위를 표시한다
+SYS_CONNECT_PATH : 계층 구조의 전체 전개 경로를 표시한다.
+NOCYCLE : 순환 구조가 발생 지점까지만 전개한다.
+CONNECT_BY_ISCYCLE : 순환구조 발생 지점을 표시한다.
+
 
 
 
