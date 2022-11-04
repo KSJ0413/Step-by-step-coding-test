@@ -104,6 +104,13 @@ INTERSECT : 교집합 결과를 정열
 MINUS 차집합
 
 
+일반 집합 연산자를
+SOL과 비교
+• UNION 연산은 UNON 기능으로  //합집합연산
+• INTERSECTION 연산은 INTERSECT 기능으로 //교집합연산
+• DFFERENCE 연산은 EXCEPT(Oracle~ MINUS) 기능으로 //차집합연산
+• PRODUCT 연산은 CROSS JOIN 기능으로 구현되었다.  //교집합연산
+
 
 
 
